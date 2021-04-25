@@ -5,7 +5,7 @@ const messages = [
     "Bianca"
 ];
 const randomMsg =()=>{
-    const messages = messages[Math.floor(Math.random()* messages.length)];
+    const message = messages[Math.floor(Math.random()* messages.length)];
     console.log(message);
 }
 
